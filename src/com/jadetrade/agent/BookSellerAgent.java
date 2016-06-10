@@ -1,3 +1,4 @@
+package com.jadetrade.agent;
 /*****************************************************************
 JADE - Java Agent DEvelopment Framework is a framework to develop 
 multi-agent systems in compliance with the FIPA specifications.
@@ -34,6 +35,8 @@ import jade.domain.FIPAAgentManagement.ServiceDescription;
 
 import java.util.*;
 
+import com.jadetrade.view.BookSellerGui;
+
 public class BookSellerAgent extends Agent {
 	/**
 	 * 
@@ -68,7 +71,7 @@ public class BookSellerAgent extends Agent {
 		}
 
 		// Add the behaviour serving queries from buyer agents
-		// Servidor de Requisições de Ofertas
+		// Servidor de Requisiï¿½ï¿½es de Ofertas
 		addBehaviour(new OfferRequestsServer());
 
 		// Add the behaviour serving purchase orders from buyer agents
@@ -84,7 +87,7 @@ public class BookSellerAgent extends Agent {
 	   with a PROPOSE message specifying the price. Otherwise a REFUSE message is
 	   sent back.
 	 */
-	// Servidor de Requisições de Ofertas
+	// Servidor de Requisiï¿½ï¿½es de Ofertas
 	//FIPA PROTOCOLS: http://www.fipa.org/specs/fipa00030/
 	private class OfferRequestsServer extends CyclicBehaviour {
 

@@ -1,3 +1,4 @@
+package com.jadetrade.view;
 /*****************************************************************
 JADE - Java Agent DEvelopment Framework is a framework to develop 
 multi-agent systems in compliance with the FIPA specifications.
@@ -29,10 +30,12 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+import com.jadetrade.agent.BookSellerAgent;
+
 /**
   @author Giovanni Caire - TILAB
  */
-class BookSellerGui extends JFrame {	
+public class BookSellerGui extends JFrame {	
 	/**
 	 * 
 	 */
@@ -42,7 +45,7 @@ class BookSellerGui extends JFrame {
 	
 	private JTextField titleField, priceField;
 	
-	BookSellerGui(BookSellerAgent a) {
+	public BookSellerGui(BookSellerAgent a) {
 		super(a.getLocalName());
 		
 		myAgent = a;
