@@ -6,6 +6,11 @@
 	<classpathentry kind="lib" path="/Users/macintosh/Documents/jade/lib/jade.jar"/>
 	<classpathentry kind="lib" path="/Users/macintosh/Documents/jade/lib/commons-codec/commons-codec-1.3.jar"/>
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.104.1.v20150825-0743.jar"/>
-	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.swt_3.104.1.v20150825-0743.jar"/>
+	<classpathentry kind="lib" path="org.pushingpixels.trident_1.2.0.v20100204-1500.jar" sourcepath="org.pushingpixels.trident.source_1.2.0.v20100204-1500.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.e4.xwt_0.9.1.SNAPSHOT.jar" sourcepath="org.eclipse.e4.xwt.source_0.9.1.SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="org.eclipse.e4.xwt.forms_0.9.1.SNAPSHOT.jar" sourcepath="org.eclipse.e4.xwt.forms.source_0.9.1.SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.core.databinding_1.5.0.v20150422-0725.jar" sourcepath="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.core.databinding_1.5.0.v20150422-0725.jar"/>
+	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.core.databinding.observable_1.5.0.v20150422-0725.jar" sourcepath="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.core.databinding.observable_1.5.0.v20150422-0725.jar"/>
+	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.jface.databinding_1.7.0.v20150406-2148.jar" sourcepath="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.jface.databinding_1.7.0.v20150406-2148.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
