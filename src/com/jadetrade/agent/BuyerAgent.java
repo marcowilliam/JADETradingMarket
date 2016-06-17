@@ -1,8 +1,19 @@
 package com.jadetrade.agent;
 
-public abstract class BuyerAgent {
+import jade.core.Agent;
+
+public abstract class BuyerAgent extends Agent{
 	
-	void setup(){};
-	void takeDown(){};
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public void setup(){
+		
+		
+	}
+	protected void takeDown(){
+		
+	}
 
 }
